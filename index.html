@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduDocs - Tài liệu học tập chất lượng</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-spinner">
+            <i class="fas fa-book-reader fa-spin"></i>
+            <p>Đang tải ứng dụng...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h1>EduDocs</h1>
+                        <p class="tagline">Kiến thức không giới hạn</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#store" class="nav-link active">
+                    <i class="fas fa-store"></i>
+                    <span>Cửa hàng</span>
+                </a>
+                <a href="#cart" class="nav-link cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Giỏ hàng</span>
+                    <span class="cart-badge" id="cartCount">0</span>
+                </a>
+                <a href="#my-docs" class="nav-link">
+                    <i class="fas fa-download"></i>
+                    <span>Tài liệu của tôi</span>
+                </a>
+                
+                <!-- Admin link (ẩn với user thường) -->
+                <a href="#admin" class="nav-link" id="adminLink" style="display: none;">
+                    <i class="fas fa-cog"></i>
+                    <span>Quản lý</span>
+                </a>
+                
+                <div class="user-section" id="userSection" style="display: none;">
+                    <div class="user-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="user-info">
+                        <span id="userName">Khách</span>
+                        <button id="logoutBtn" class="btn-logout">
+                            <i class="fas fa-sign-out-alt"></i> Đăng xuất
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="mainContent">
+        <!-- Sections sẽ được tải động bằng JavaScript -->
+    </main>
+
+    <!-- Footer -->
+    <footer id="footerContent">
+        <!-- Footer sẽ được tải động -->
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Confirm Modal -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Xác nhận</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="modalMessage"></p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" id="modalCancelBtn">Hủy</button>
+                <button class="btn-primary" id="modalConfirmBtn">Xác nhận</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import JavaScript Files -->
+    <script src="js/config.js"></script>
+    <script src="js/database.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/payment.js"></script>
+    <script src="js/download-manager.js"></script>
+    <script src="js/documents-manager.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
