@@ -256,7 +256,7 @@ function loadMainSections() {
                                 <h4><i class="fas fa-info-circle"></i> Thông tin chuyển khoản</h4>
                                 <div class="detail-item">
                                     <span>Ngân hàng:</span>
-                                    <span>Techcombank</span>
+                                    <span>Vietcombank</span>
                                 </div>
                                 <div class="detail-item">
                                     <span>Số tài khoản:</span>
@@ -264,7 +264,7 @@ function loadMainSections() {
                                 </div>
                                 <div class="detail-item">
                                     <span>Chủ tài khoản:</span>
-                                    <span>NGUYEN VAN A</span>
+                                    <span>Hồ Hoàng Trí</span>
                                 </div>
                                 <div class="detail-item">
                                     <span>Số tiền:</span>
