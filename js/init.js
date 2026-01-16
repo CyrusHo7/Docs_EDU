@@ -467,7 +467,7 @@ function loadFooter() {
                 <div class="footer-section">
                     <h4>Thông tin thanh toán</h4>
                     <div class="bank-info">
-                        <p><i class="fas fa-university"></i> Vietcomband</p>
+                        <p><i class="fas fa-university"></i> Vietcombank</p>
                         <p><i class="fas fa-credit-card"></i> 1903 8858 6868</p>
                         <p><i class="fas fa-user"></i> HO HOANG TRI</p>
                         <p><i class="fas fa-qrcode"></i> Quét mã QR để chuyển khoản</p>
