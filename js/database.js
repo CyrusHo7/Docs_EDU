@@ -26,6 +26,15 @@ function initDatabase() {
                 role: "user",
                 createdAt: new Date().toISOString(),
                 isActive: true
+            },
+            {
+                id: 3,
+                name: "Phạm Minh Thông",
+                email: "phamminhthong2392008@gmail.com",
+                password: "123456",
+                role: "user",
+                createdAt: new Date().toISOString(),
+                isActive: true
             }
         ];
         localStorage.setItem(DB_KEYS.USERS, JSON.stringify(users));
