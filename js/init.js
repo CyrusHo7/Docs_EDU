@@ -264,7 +264,7 @@ function loadMainSections() {
                                 </div>
                                 <div class="detail-item">
                                     <span>Chủ tài khoản:</span>
-                                    <span>Hồ Hoàng Trí</span>
+                                    <span>HO HOANG TRI</span>
                                 </div>
                                 <div class="detail-item">
                                     <span>Số tiền:</span>
@@ -467,9 +467,9 @@ function loadFooter() {
                 <div class="footer-section">
                     <h4>Thông tin thanh toán</h4>
                     <div class="bank-info">
-                        <p><i class="fas fa-university"></i> Techcombank</p>
+                        <p><i class="fas fa-university"></i> Vietcomband</p>
                         <p><i class="fas fa-credit-card"></i> 1903 8858 6868</p>
-                        <p><i class="fas fa-user"></i> NGUYEN VAN A</p>
+                        <p><i class="fas fa-user"></i> HO HOANG TRI</p>
                         <p><i class="fas fa-qrcode"></i> Quét mã QR để chuyển khoản</p>
                     </div>
                 </div>
@@ -477,8 +477,8 @@ function loadFooter() {
                 <div class="footer-section">
                     <h4>Hỗ trợ khách hàng</h4>
                     <div class="contact-info">
-                        <p><i class="fas fa-envelope"></i> support@edudocs.vn</p>
-                        <p><i class="fas fa-phone"></i> 1900 1234</p>
+                        <p><i class="fas fa-envelope"></i> hoangtricbt@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 0916 22 9090</p>
                         <p><i class="fas fa-clock"></i> Xác nhận tự động 24/7</p>
                         <p><i class="fas fa-bolt"></i> Nhận tài liệu ngay sau upload</p>
                     </div>
